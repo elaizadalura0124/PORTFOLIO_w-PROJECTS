@@ -1,4 +1,4 @@
-Welcome to my personal portfolio!
+Welcome to my personal portfolio! w/ projects uploaded
 
 This website showcases my:
 - About Me
@@ -7,4 +7,6 @@ This website showcases my:
 - Game Development Contributions
 - Contact Information
 
-Created using HTML and CSS.
+Created using HTML and CSS  styles.
+
+the foodies.zip - is the first project the Dish Diaries.
