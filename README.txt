@@ -1,6 +1,6 @@
 Welcome to my personal portfolio! w/ projects uploaded
 
-This website showcases my:
+(index.html) This website showcases my:
 - About Me
 - Technical Skills
 - Academic Projects
@@ -9,4 +9,3 @@ This website showcases my:
 
 Created using HTML and CSS  styles.
 
-the foodies.zip - is the first project the Dish Diaries.
