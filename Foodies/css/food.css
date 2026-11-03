@@ -1,0 +1,559 @@
+.container {
+display:flex;
+height:auto;
+margin-top:1%;  
+justify-content: space-evenly  ;
+gap:10px;
+align-items: center;
+}
+
+.recipe {
+display: grid;
+place-items: center; 
+background-image: url(/images/Dish/image.png);
+background-size:auto 340px;
+height:280px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    text-align: center;
+    padding:10px;
+   width:50%;
+   border-radius: 15px;
+   border:none;
+   min-width:250px;
+   max-width:350px;
+}
+
+.fa-magnifying-glass {
+    position:absolute;
+    color:black;
+    top:10px;
+    cursor:pointer;
+    left:15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+a:visited {
+    color:black;
+}
+
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+#cond {
+    width:1%;
+}
+
+.feat {
+    margin-top:10px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    align-self: center;  
+}
+
+
+.nav {
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+    justify-content: flex-end;
+    align-items: center;
+    height:auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color:black;
+    transition: 0.3s ease;
+}
+
+
+.nav span {
+    color:rgba(255, 29, 59, 1);
+    transition: 0.3s ease;
+}
+
+.nav a:hover {
+    color:rgba(255, 29, 59, 1);
+}
+
+.nav a:hover span {
+    color:black;
+} 
+
+
+
+* {
+
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    margin:0;
+}
+
+
+.container-1 {
+    margin-top:2%;
+    height:275px;
+    display:flex;
+    background-image: url(/images/Dish/Background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: scroll;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.food {
+    margin-bottom:4px; 
+    height:75%;
+    display:flex;
+}
+
+.box2 a:hover .head {
+    text-decoration: underline;
+}
+
+
+.top {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.bottom {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.title {
+    color:rgba(255, 29, 59, 1);
+    font-weight:500;
+}
+
+.food img {
+width:100%;
+height:100%;
+object-fit: cover;
+}
+
+.container-1::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity */
+}
+
+
+
+.box1 {
+    margin-right:5%;
+    color:rgb(233, 233, 233);
+    width:50%;
+    text-align: justify;
+    min-width:250px;
+}   
+
+#Dish {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    color:rgb(255, 28, 58);
+}
+#con1 {
+    margin-right: auto;
+    position:relative;
+    width: 200px;
+    height: auto;
+    display:flex;
+    min-width:150px;
+}
+
+.logo {
+    min-width: 150px;
+    height:auto;
+    max-height: 100%;
+}
+
+
+
+
+.con {
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+
+.box {
+    width:350px;
+    height:250px;
+}
+
+
+.time {
+    font-weight: 500;
+    opacity: 0.7;
+
+}
+
+.fa-clock {
+    font-size: 18px;
+}
+
+
+.rating {
+    font-weight: 500;
+    opacity: 0.7;   
+}
+
+.container-2 {
+display:flex;
+justify-content: space-between;
+align-items: flex-start;
+margin:auto;
+margin-top:3%;
+gap: 20px;
+height:auto;
+}
+
+.articles {
+    margin-left:15px;
+    flex:2.2;
+    height:700px;
+}
+
+.title1 {
+    font-size:30px;
+    font-weight: 500;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+    gap:9%;
+    height:70%;
+}
+
+.ad-img {
+    width:350px;
+    height:225px;
+}
+.ad-img img {
+    object-fit: cover;
+    height:100%;
+    width:100%;
+    border-radius: 3px;
+}
+
+
+.ad-title {
+    color:rgb(255, 28, 58);
+    text-align: right;
+    margin-right:6%;
+    width:100%;
+    border:solid rgba(220, 20, 60, 0);
+    min-width:390px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.advs {
+    margin-right:10px;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    flex-wrap: nowrap;
+    align-items: center;
+    height:700px;
+}
+
+.click {
+    border-radius: 6px;
+    margin-top:5px;
+    padding:3px;
+    width:100%; 
+    font-size: large;
+    border:none;    
+    color:white;
+    height:50px;
+    background-color:rgb(255, 28, 58);
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+.click:hover {
+    background-color:rgb(255, 85, 107);
+}
+
+.art-pic img {
+    object-fit: cover;  
+    height:100%;
+    width:100%;
+    border-radius: 13px;
+}
+
+
+
+.text {
+    margin-top:14px;    
+    width:50%;
+    margin-left:15px;
+    min-width:360px;
+}
+
+.box2 {
+    margin-top:15px;    
+    display:flex;
+    margin-left:10px;
+}
+
+.est {
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+
+.ad-sub {
+    font-weight: 500;
+    color:rgb(255, 28, 58);   
+}
+
+.ad-des {
+    font-weight: 500;
+}
+
+
+.head {
+    font-size: x-large;
+    font-weight: 500;
+    color:rgb(255, 28, 58);
+}
+
+.art-pic {
+    height:190px;
+    width:230px;
+}
+
+.articles hr {
+    width:80%;
+    min-width:240px;
+    margin-left:20px;
+}
+
+.break {
+    margin: 0 auto;
+    width:90%;
+}
+
+.container-3 {
+    margin-top:2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:600px;
+    position: relative;
+}
+
+.foods {
+    font-size: 40px;
+    font-weight: 500;
+    height:7%;
+}
+
+.bg {
+    position:absolute;
+    top:50%;
+    width:100%;
+    height:50%;
+    background-image: url(/images/Dish/image.png);
+    background-size: auto 475px;
+    background-position: center;
+    z-index: -1;
+}
+
+.french {
+    gap:24px;
+    display:flex;
+    margin-top:10px;
+}
+
+.fries {
+    height:250px;
+    width:250px;
+    
+}
+
+.fries img {
+    object-fit: cover;
+    width:100%;
+    border-radius: 5px;
+    height:100%;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+
+.fries img:hover {
+    transform: scale(1.05);
+  }
+
+
+.desc {
+    margin-top:2%;
+}
+
+.fries-des {
+    margin-top:2%;
+    text-align: justify;
+    width:50%;
+    min-width: 400px;
+    font-size:large;
+}
+
+
+.fries img:hover {
+    transform: scale(1.05);
+  }
+
+
+#fame {
+    font-weight: 500;
+    color:rgba(255, 29, 59, 1);
+}
+
+.food-name {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;  
+    font-size: x-large;
+}
+
+.container-3 button {
+    margin-top:10%;
+    height:45px;
+    border-radius: 14px;
+    border: none;
+    background-color:rgba(255, 29, 59, 1);
+    min-width:170px;
+    color:white;
+    font-size: large;
+    transition: ease-in 0.2s;
+    cursor: pointer ;
+}
+
+.container-3 button:hover {
+    background-color:rgb(255, 64, 89);
+
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.493);
+    box-shadow: inset 3px 1px 5px rgba(0, 0, 0, 0.925);
+    height:150px;
+    background-color:rgba(255, 224, 228, 1);
+}
+
+.upper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.down-l {
+align-self:center;
+display:flex;
+width:15%;
+justify-content: center;
+gap:10%;
+
+}
+
+.down-l i {
+    transition: 0.3s ease-in-out;
+}
+
+
+.down-l .fa-facebook:hover {
+    color:rgb(47, 47, 255);
+}
+
+.down-l .fa-instagram:hover {
+    color:rgb(255, 41, 159);
+}
+
+.down-l .fa-youtube:hover {
+    color:rgb(255, 41, 41);
+}
+
+
+.down-l i {
+    font-size: 22px;
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer hr {
+    background-color: rgba(0, 0, 0, 0.356); 
+    height: 0.1px; 
+    border: none; 
+    margin: 0 auto;
+}
+
+.buttons {
+    display:flex;
+    align-items: flex-start;
+    width:30%;
+    min-width: 250px;
+}
+
+footer a {
+    font-size: large;
+    font-weight: 500;
+}
+
+.rights {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40%;
+
+}
+.rights span {
+    font-weight: 500;
+    font-size: large;
+}
+
+.end {
+    color:rgba(255, 29, 59, 1);
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+}

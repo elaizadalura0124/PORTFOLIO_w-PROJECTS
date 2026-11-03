@@ -1,0 +1,889 @@
+.container {
+display:flex;
+height:auto;
+margin-top:1%;  
+justify-content: space-evenly  ;
+gap:10px;
+align-items: center;
+}
+
+.recipe {
+display: grid;
+place-items: center; 
+background-image: url(/images/Dish/image.png);
+background-size:auto 340px;
+height:280px;
+}
+
+.search {
+    position: relative;
+}
+
+.search input {
+    text-align: center;
+    padding:10px;
+   width:50%;
+   border-radius: 15px;
+   border:none;
+   min-width:250px;
+   max-width:350px;
+}
+
+.fa-magnifying-glass {
+    position:absolute;
+    color:black;
+    top:10px;
+    cursor:pointer;
+    left:15px;
+}
+
+
+#cond {
+    width:1%;
+}
+
+.feat {
+    margin-top:10px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    align-self: center;  
+}
+
+
+.nav {
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+    justify-content: flex-end;
+    align-items: center;
+    height:auto;
+}
+
+nav .nav a {
+    text-decoration: none;
+    color:black;
+    transition: 0.3s ease-in-out;
+}
+
+.nav span {
+    color:rgba(255, 29, 59, 1);
+    transition: 0.3s ease;
+}
+
+.nav a:hover {
+    color:rgba(255, 29, 59, 1);
+}
+
+.nav a:hover span {
+    color:black;
+} 
+
+.home {
+    display: flex   ;
+    padding-left:1%;
+    gap:1%;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home1 {
+    font-size: large;
+    width:100%;
+    display: flex;
+    gap:1%;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color:black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.food-name {
+    text-decoration: underline;
+    color:rgba(255, 29, 59, 1);
+}
+
+
+.home i {
+    font-size: 15px;
+    align-self: center;
+    color:rgba(255, 29, 59, 1);
+}
+
+
+* {
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    margin:0;
+}
+
+#con1 {
+    margin-right: auto;
+    position:relative;
+    width: 200px;
+    height: auto;
+    display:flex;
+    min-width:150px;
+}
+
+.con {
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+.container {
+    position: relative;
+    display:flex;
+    height:350px;
+    justify-content: space-between;
+    gap:0;
+    margin-top: 0;
+    background-image: url(/images/Dish/Bicol-Express-1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index:1;
+    background-attachment:scroll;
+    background-position:top left;
+}
+
+.container::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Adjust opacity */
+}
+
+
+.left , .right {
+    color:white;
+    height:100%;
+}
+
+.left {
+    flex:3;
+    min-width:600px;
+    display:flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+}
+
+.container-1 {
+    width:80%;
+    margin-left:5%;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+
+.text, .desc {
+    width:80%;
+}
+
+.text {
+    margin-top: 5%;
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 500;
+
+}
+
+.subtitle {
+    text-align: justify;
+    font-size: large;
+}
+
+
+.desc {
+    flex:0.4;
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    gap:1%;
+}
+
+.desc span {
+    margin-left: 5%; 
+    font-weight: 500;
+}
+
+.box {
+    width:15%;
+    height:50%; 
+}
+
+#box3 {
+    width:12%;
+}
+
+#box1 {
+    width:22%;
+}
+
+
+.line {
+    border-left:solid 0.8px;
+    height:50%;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+}
+
+.right {
+    flex:0.5;
+    display:flex;
+    flex-direction: column;  
+    justify-content: flex-start;
+}
+
+.top {
+    flex:2;
+}
+
+.fa-clock, .fa-calendar,.fa-user  {
+    margin-right:5%; 
+}
+
+.bottom {
+    flex: 0.4;
+}
+
+#box5{
+    width:100%;
+    font-weight: 500;
+}
+
+.star {
+    font-weight: 500;
+    margin-right:2%;
+}
+
+.fa-comments {
+    margin-right:4%;
+}
+
+.bottom hr {
+    background-color: white; 
+    width: 85%;
+}
+
+.container-2 {
+    height:500px;
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.bg {
+    background-image: url(/images/Dish/image.png);
+    background-size: auto 400px ;
+    background-repeat:space 411px;
+    height: 65%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.list {
+    flex:1;
+}
+
+.polaroids {
+    flex:1;
+    position: relative;
+}
+
+.list {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lists {
+    position: relative;
+    min-width: 450px;
+    margin-left: 10%;
+    max-width: 550%;
+    height:450px;
+    width:70%;
+    background-color: rgba(255, 232, 240, 1);
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    border:rgba(255, 29, 59, 1) solid 1px;
+}
+
+.list-back {
+    min-width: 450px;
+    margin-left: 10%;
+    height:450px;
+    background-color: rgba(255, 232, 240, 1);
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    background-color:rgba(255, 29, 59, 1);
+    border:rgba(255, 29, 59, 1) solid 1px;
+    position: absolute;
+    top:38px;
+    z-index: -1;
+}
+
+
+
+.num {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    color:rgba(255, 29, 59, 1);
+    font-size: medium;
+    margin-right: 2%;
+}
+
+.lists ul {
+    list-style-type: none;
+}
+
+
+h1 {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    color:rgba(255, 29, 59, 1);
+    font-size: xx-large;
+    text-align: center;
+}
+
+.polaroid {
+    position: absolute;
+    top:10%;
+    left: 10%;
+    width:340px;
+    height:387px;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    gap:0;
+    transform: rotate(-5deg);
+
+}
+
+
+.photo {
+    width:304px;
+    height: 309px;
+    border: solid 3px rgba(67, 66, 66, 0.226);
+    margin-top: 2%;
+}
+
+.photo img {
+    object-fit: cover;
+    width:100%;
+    height: 100%; 
+}
+
+.polaroid1 {
+    position: absolute;
+    top: 9%;
+    right:15%;
+    width:295.31px;
+    height:332.91px;
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    gap:0;
+    transform: rotate(15deg);
+
+}
+
+.photo1 {
+    width:266.38px;   
+    height:246.45px;
+    border: solid 3px rgba(67, 66, 66, 0.226);
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+.photo1 img {
+    object-fit: cover;
+    width:100%;
+    height: 100%; 
+}
+
+
+.title1 {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#heart {
+    color:rgba(255, 29, 59, 1);
+}
+
+
+.container-3 {
+    height:1750px;   
+    display:flex;
+    position: relative;
+}
+
+.content {
+    min-width: 500px;
+    margin-left:5%;
+    flex:2;
+    display:flex;
+    flex-direction: column;
+}
+
+.wrap {
+    display: block;
+    width:100%;
+}
+
+.profile {
+    flex:1;
+    margin-right: 3%;
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    gap:1%; 
+    z-index: 0;
+}
+
+.bg1 {
+    position: absolute;
+    width:870px;
+    height:48%;
+    left:0%;
+    top: 15%;
+    background-image: url(/images/Dish/image.png);
+    background-size: auto 450px;
+    z-index: -6;
+}
+
+.white {    
+    width:100%;
+    background-color: white;
+    height:50px;
+}
+
+.portfolio {
+    margin-top:5%;
+    min-width: 400px;
+    position: relative;
+    height:290px;
+    border:solid 3px  rgba(255, 29, 59, 1);
+    background-color:rgba(255, 232, 240, 1) ;
+    border-radius:15px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+}
+
+.port-photo img {
+    object-fit: cover;
+    height:100%;
+    width:100%;
+    border-radius: 100%;
+}
+
+
+.space {    
+    height:45%;
+}
+
+.port{
+    text-align: center;
+    color:rgba(255, 29, 59, 1);
+    font-size: x-large;
+}
+
+.port2 {
+    width:80%;
+    text-align: justify;
+    align-self: center;
+}
+
+.port1 {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+.port-photo {
+    position: absolute;
+    left:25%;   
+    bottom:54%;
+    border-radius:100%;
+    border:solid 3px  rgba(255, 29, 59, 1);
+    background-color:rgba(255, 232, 240, 1) ;
+    width:210px;
+    height:200px;
+}
+
+.food { 
+    height: 850px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:
+    5px 10px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.title2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 500;
+    padding:20px;
+}
+
+.title2 span {
+    font-weight: 500;
+    color:rgba(255, 29, 59, 1);
+}
+
+.food hr {
+    width:95%;
+    margin: 0 auto;
+    border:solid 1px;
+    margin-top:10px;
+}
+
+.title3 {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    width:85%;
+    color:rgba(255, 29, 59, 1);
+    padding:2%;
+}
+
+.food-jpg {
+    width:174px;
+    height:174px;
+    align-self:flex-start;
+    margin-left: 5%;
+}
+
+.food-jpg img {
+    object-fit: cover;
+    height:100%;
+    border-radius: 5px;
+    width:100%;
+}
+
+.box6 {
+    display:flex;
+    gap:5%;
+    width:100%;
+}
+
+.text1   {
+    width:180px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.description {
+    width:80%;
+    z-index: 1;
+    font-size: large;
+    position: relative;
+    margin-top:2%;
+    text-align: justify ;
+}
+
+
+.bg2 {
+    width:190%;
+    position: absolute;
+    top:71%;
+    right:-8%;
+    background-image: url(/images/Dish/image.png);
+    height:490px;
+    background-size:auto 540px ;
+    z-index: -6;
+}
+
+.photo2 {
+    width: 80%;
+    height:350px;
+    margin-top:2%;
+    z-index: 1;
+}
+
+.photo2 img {
+    object-fit: cover;
+    height:100%;
+    width:100%;
+
+}
+
+.weekly {
+    margin-left: 3%;
+}
+
+.weekly hr {
+    margin-top: 5px;
+    border: 1px solid;
+    width:80%;
+}
+
+.weekly span {
+    font-size: x-large;
+    color:rgba(255, 29, 59, 1);
+    font-weight: 500;
+}
+
+.sub {
+    height:200px;
+    width:88%;
+    min-width: 350px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border:solid rgba(255, 29, 59, 1) 2px;
+    padding:10px;
+    background-color: rgba(255, 224, 228, 1);
+}
+
+.sub span {
+    text-align: center;
+
+}
+
+.sub1 {
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.sub2 {
+    font-size: 15px;
+    font-family: "Adamina",Arial, Helvetica, sans-serif;
+    padding:15px;
+}
+
+#sign {
+    color:rgba(255, 29, 59, 1);
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+}
+
+
+.sub3 input {   
+    border:none;
+    padding:9px;
+    width:250px;
+    padding-left: 30px;
+    margin-bottom:2%;
+    border-radius: 14px;
+}
+
+.sub3 input:focus {
+    border-color: #ff6347; /* Changes border color (Tomato) */
+    background-color: #fff5f0; /* Light peach background */
+    outline: none; /* Removes default browser outline */
+  
+}
+
+
+.description1 {
+    width:80%;
+    font-size: large;
+    margin-top:3%;
+    text-align: justify ;
+}
+
+
+.sub3 {
+    position: relative;
+}
+
+.fa-envelope {
+    position:absolute;
+    top:8px;
+    left:7px;
+    font-size: large;
+}
+
+.sub button {
+    padding:10px;
+    width:24%;
+    border-radius: 10px;
+    background-color: rgba(255, 236, 224, 1);
+    border: solid 0.5px rgba(194, 164, 164, 1);  
+    font-weight: 500;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+
+.sub button:hover {
+    background-color: rgb(248, 243, 239);
+}
+
+
+.button {
+    width:30%;
+    height:13%;
+    border-radius: 10px;
+    border:none;
+    text-align: center;
+    align-self: center;
+    background-color:   rgba(255, 29, 59, 1);
+    color:white;
+    cursor: pointer;
+    margin-top: 2%;
+    transition: ease-in-out 0.3s;
+}
+
+.button:hover {
+    background-color:rgb(255, 64, 89);
+}
+
+
+.instructions {
+    margin-top:5%;
+    border: rgba(255, 29, 59, 1) solid 1px;
+    width: 80%;
+    min-width: 520px;
+    height:550px;   
+    background-color: rgba(255, 232, 240, 1);
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 5%;
+}
+
+.instructions li {
+    width:90%;
+    min-width: 450px;
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+li::marker {
+    color:rgba(255, 29, 59, 1);
+}
+
+
+
+
+
+
+
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.493);
+    box-shadow: inset 3px 1px 5px rgba(0, 0, 0, 0.925);
+    height:150px;
+    background-color:rgba(255, 224, 228, 1);
+}
+
+.upper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+.down-l {
+    align-self:center;
+    display:flex;
+    width:15%;
+    justify-content: center;
+    gap:10%;
+    
+    }
+    
+    .down-l i {
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+    .down-l .fa-facebook:hover {
+        color:rgb(47, 47, 255);
+    }
+    
+    .down-l .fa-instagram:hover {
+        color:rgb(255, 41, 159);
+    }
+    
+    .down-l .fa-youtube:hover {
+        color:rgb(255, 41, 41);
+    }
+    
+    
+    .down-l i {
+        font-size: 22px;
+    }
+    
+    
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer hr {
+    background-color: rgba(0, 0, 0, 0.356); 
+    height: 0.1px; 
+    border: none; 
+    margin: 0 auto;
+}
+
+.buttons {
+    display:flex;
+    align-items: flex-start;
+    width:30%;
+    min-width: 250px;
+}
+
+
+footer a {
+    font-size: large;
+    font-weight: 500;
+}
+
+.rights {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40%;
+
+}
+.rights span {
+    font-weight: 500;
+    font-size: large;
+}
+
+.end {
+    color:rgba(255, 29, 59, 1);
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+}

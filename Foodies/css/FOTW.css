@@ -1,0 +1,804 @@
+
+
+.search {
+    position: relative;
+}
+
+.search input {
+    text-align: center;
+    padding:10px;
+   width:50%;
+   border-radius: 15px;
+   border:none;
+   min-width:250px;
+   max-width:350px;
+}
+
+.fa-magnifying-glass {
+    position:absolute;
+    color:black;
+    top:10px;
+    cursor:pointer;
+    left:15px;
+}
+
+
+#cond {
+    width:1%;
+}
+
+.feat {
+    margin-top:10px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
+    align-self: center;  
+}
+
+
+.nav {
+    display:flex;
+    list-style-type: none;
+    gap:10px;
+    justify-content: flex-end;
+    align-items: center;
+    height:auto;
+}
+
+nav .nav a {
+    text-decoration: none;
+    color:black;
+    transition: 0.3s ease-in-out;
+}
+
+.nav span {
+    color:rgba(255, 29, 59, 1);
+    transition: 0.3s ease;
+}
+
+.nav a:hover {
+    color:rgba(255, 29, 59, 1);
+}
+
+.nav a:hover span {
+    color:black;    
+} 
+
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:visited {
+    color:black
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+* {
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal; 
+    margin:0;
+}
+
+
+
+
+.container {
+    margin-top: 1%;
+    height:475px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.left {
+    width:50%;
+    height:78%;
+    background-image: url(/images/Dish/Background\ frie.png);
+}
+
+.right {
+    height:82%;
+    width:50%;
+    background-image: url(/images/Dish/Background\ fries\ \(5\).png);
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-end;
+}
+
+.crown img {
+    position: absolute;
+    left:53%;
+    transform: rotate(35deg);
+    width:170px;
+    height:125px;
+    top:-3%;
+}
+
+.fact {
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: 600;
+    color:rgba(25, 29, 92, 1);
+}
+.facts {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+.overlay {
+    position: absolute;
+}
+
+.fries {
+    position: absolute;
+    width:550px;
+    height:460px;
+    left:250px;
+    top:-3%;
+    left:27%;
+    overflow: hidden;
+
+}
+
+.fries img {
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.fries img:hover {
+    transform: scale(1.05);
+}
+
+.fries1 {
+    position: absolute;
+    top:95%;
+    left:36%;
+}
+
+.frie {
+    object-fit: cover;
+    object-position: top center;
+    width: 100%;
+    height:100%;
+}
+
+.FOTW {
+    width:50%;
+    display:flex;
+    margin-top:7%;
+    margin-left:4%;
+    height:40%;
+    display:flex;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+
+.FOTW .food1 {
+    font-weight: 500;
+    font-size: 35px;
+    width:75%;
+    text-align: center;
+}
+
+.date {
+    color:rgba(255, 29, 59, 1);
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#week {
+    color:rgba(255, 29, 59, 1);
+    font-weight: 500;
+}
+
+
+.title {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    padding:3%;
+    margin-bottom: 1%;
+}
+
+#title {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    color:rgba(255, 29, 59, 1);
+}
+
+#con1 {
+    margin-right: auto;
+    position:relative;
+    width: 200px;
+    height: auto;
+    display:flex;
+    min-width:150px;
+}
+
+.con {
+    font-size: larger;
+    cursor: pointer;
+}
+
+.stars {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2%;
+    color:rgba(255, 29, 59, 1);
+}
+
+.stars i{
+    font-size: larger;
+}
+
+.rate {
+    color:black;
+    font-size: medium;
+}
+
+.container-2 {
+    height:1600px;
+    margin-top: 1%;
+    display: flex;
+    position:relative;
+}
+
+.bg {
+    position: absolute;
+    right:0;    
+    width:50%;
+    height:33%;
+    background-image: url(/images/Dish/Background\ fries\ \(5\).png);
+    z-index: -1;
+}
+
+.bg1 {
+    position: absolute  ;
+    width:55%;
+    height:41%;
+    left:0;
+    background-size: auto;
+    background-image: url(/images/Dish/Background\ frie.png);
+    z-index: -1;
+}
+
+.bg2 {
+position: absolute;
+width:40%;
+height:13%;
+right:0;
+background-image: url(/images/Dish/Background\ fries\ \(5\).png);
+bottom:0;
+z-index: -1;
+}
+
+.l1 , .r1 {
+    flex:1;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.l1 {
+    gap:5%;
+    min-width: 650px;
+}
+
+.r1 {
+    gap:2%;
+}
+
+.title1 {
+    gap:6%;
+}
+
+
+
+.note {
+    width:80%;
+    height:12%;
+    margin-top: 5%;
+}
+
+.note hr {
+    width:80%;
+    margin-top:1%;
+    margin-bottom:2%;
+}
+
+
+.note1 {
+    font-size: 27px;
+    font-weight: 500;
+    color:rgba(25, 29, 92, 1);
+}
+
+.desc {
+    width:80%;
+    height:25%;
+}
+
+.desc hr {
+    width:80%;
+    margin-top:1%;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.493);
+    box-shadow: inset 3px 1px 5px rgba(0, 0, 0, 0.925);
+    height:150px;
+    background-color:rgba(255, 224, 228, 1);
+}
+
+.color {
+    color:rgba(255, 29, 59, 1);
+    font-weight: 500;
+}
+
+
+.upper {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    align-items: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.prep {
+    border:solid rgba(255, 29, 59, 1) 2px;
+    width:75%;
+    min-width: 400px;
+    height:450px;
+    border-radius: 10px;
+    background-color: rgba(255, 250, 250, 1);
+    display:flex;   
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2%;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+}
+
+.time {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:75%;
+    height:25%;
+    gap:3%;
+}
+
+.timer {
+    width:50%;
+    text-align: center;
+    height:50%;
+    display: flex;
+    gap:10%;    
+    flex-direction: column;
+    
+}
+
+.title3 {
+    color:rgba(255, 29, 59, 1);
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#middle {
+    border-left: solid 1px;
+    border-right: solid 1px;
+}
+
+.preps {
+    height:53%;
+    display:Flex;
+    width:99%;
+
+}
+
+
+.ins {
+    flex:1;
+    margin-left: 5%;
+}
+
+.ing {
+    flex:0.5;
+    margin-left: 5%;
+}
+
+.ins-ti, .ing-ti {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    color:rgba(255, 29, 59, 1);
+    font-size: x-large;
+}
+
+.ing ul {
+    margin-top: 3%;
+    line-height: 1.5;
+}
+
+
+.ins ol {
+    margin-top: 3%;
+    line-height: 1.4;
+}
+
+li::marker {
+    color:rgba(255, 29, 59, 1);
+}
+
+
+.title1 {
+    font-family: "Pacifico",Arial, Helvetica, sans-serif;
+    color:rgba(255, 29, 59, 1);
+    text-align: center;
+}
+
+.tips {
+    width:70%;
+    height:15%;  
+    transform: rotate(-2deg);
+    background-color: rgba(255, 250, 250, 1);
+    border:solid rgba(255, 29, 59, 1) 2px;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);      
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.title4 {
+    font-size: x-large;
+    font-weight: 500;
+    padding:10px;   
+    text-align: center;
+    height:15%;
+}
+
+#fun {
+    color:rgba(255, 29, 59, 1);
+    font-weight: 500;
+}
+
+.desc1 {
+    width:80%;
+    text-align: justify;
+    margin-top: 3%;
+    align-self: center;
+    line-height: 1.2;
+}
+
+
+.paper {
+    margin-top: 7%;
+    height: 200px;
+    width:70%;
+    position: relative;
+    background-color: rgba(255, 250, 250, 1);
+    border:rgba(255, 29, 59, 1) solid 2px;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);      
+}
+
+.paper1 {
+        margin-top: 7%;
+    height: 200px;
+    width:100%;
+    top:-35px;
+    transform: rotate(5deg);
+    position: absolute;
+    background-color: rgba(255, 250, 250, 1);
+    border:rgba(255, 29, 59, 1) solid 2px;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);      
+}
+
+.talk {
+    color:rgba(25, 29, 92, 1);
+    font-size: x-large   ;
+    font-weight: 500;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+.img {
+    margin-top: 0.5%;
+    margin-left:5% ;
+    height:150px;   
+    width:150px;
+}
+
+
+
+.img img {
+    object-fit: cover;
+    height:100%;
+    width:100%;
+    border-radius: 100%;
+
+}
+
+
+.inner1 {
+    display: flex;
+    height:100%;
+}
+
+.inner1 span {
+    display:flex;
+    margin-left: 15px;
+    margin-top: 5px;
+    width:50%;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.link {
+    display: flex   ;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+    font-size: x-large;
+}
+
+.link i {
+    transition: 0.3s ease-in-out;
+}
+
+.polaroids {
+    width:100%;
+    height:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.polaroid1 {
+    position: absolute;
+    width:250px;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    height:275px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transform: rotate(-5deg);
+    left:20%;
+    flex-direction: column;
+    background-color: white;
+}
+
+.photo {
+    margin-top: 7%;
+    border:solid;
+    height:220px;
+    width:210px;
+    border: solid 2px rgba(67, 66, 66, 0.226);
+}
+
+.photo img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.fotw {
+    padding:10px;
+    font-family: "Pacifico", Arial, Helvetica, sans-serif   ;
+}
+
+
+.polaroid2 {
+    position: absolute;
+    width:250px;
+    box-shadow: 5px 10px 21px 0px rgba(0, 0, 0, 0.25);
+    height:275px;
+    align-items: center;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    right:10%;
+    transform: rotate(8deg);
+    z-index: -1;
+    flex-direction: column;
+
+}
+
+.photo1 {
+    margin-top: 7%;
+    border:solid;
+    height:210px;
+    width:210px;
+    border: solid 2px rgba(67, 66, 66, 0.226);
+}
+
+.photo1 img {
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+
+.won {
+    color: rgb(0, 0, 0);
+    font-family: "Pacifico", Arial, Helvetica, sans-serif   ;   
+}
+
+
+#red {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif   ;   
+   color: rgba(255, 29, 59, 1);
+}
+
+
+.food { 
+    height: 675px;
+    width:70%;
+    z-index: 2;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:
+    5px 10px 13px 0px rgba(0, 0, 0, 0.25),
+    inset 0 0 0 2px rgba(0, 0, 0, 0.25);
+}
+
+
+.title2{
+    font-size: 27px;
+    font-weight: 500;
+    text-align: left;
+    font-weight: 500;
+    
+}
+
+.title2 span {
+    font-weight: 500;
+    color:rgba(255, 29, 59, 1);
+}
+
+.food hr {
+    width:95%;
+    margin: 0 auto;
+    border:solid 1px;
+    margin-top:10px;
+}
+
+.title3 {
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    width:85%;
+    color:rgba(255, 29, 59, 1);
+    padding:2%;
+}
+
+.food-jpg {
+    width:174px;
+    min-width: 170px;
+    min-height: 170px;
+    height:174px;
+    align-self:flex-start;
+    margin-left: 5%;
+}
+
+.food-jpg img {
+    object-fit: cover;
+    height:100%;
+    border-radius: 5px;
+    width:100%;
+}
+
+.box6 {
+    display:flex;
+    gap:5%;
+    width:100%;
+}
+
+.text1   {
+    width:180px;
+    min-width: 150px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.down-l {
+    align-self:center;
+    display:flex;
+    width:15%;
+    justify-content: center;
+    gap:10%;
+    
+    }
+    
+    .down-l i {
+        transition: 0.3s ease-in-out;
+    }
+    
+    
+     .fa-facebook:hover {
+        color:rgb(47, 47, 255);
+    }
+    
+   .fa-instagram:hover {
+        color:rgb(255, 41, 159);
+    }
+    
+    .fa-youtube:hover {
+        color:rgb(255, 41, 41);
+    }
+    
+    
+    .down-l i {
+        font-size: 22px;
+    }
+    
+    
+footer a {
+    text-decoration: none;
+    color:black;
+}
+
+footer hr {
+    background-color: rgba(0, 0, 0, 0.356); 
+    height: 0.1px; 
+    border: none; 
+    margin: 0 auto;
+}
+
+.buttons {
+    display:flex;
+    align-items: flex-start;
+    width:30%;
+    min-width: 250px;
+}
+
+footer a {
+    font-size: large;
+    font-weight: 500;
+}
+
+.rights {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40%;
+
+}
+.rights span {
+    font-weight: 500;
+    font-size: large;
+}
+
+.end {
+    color:rgba(255, 29, 59, 1);
+    font-family: "Pacifico", Arial, Helvetica, sans-serif;
+}
