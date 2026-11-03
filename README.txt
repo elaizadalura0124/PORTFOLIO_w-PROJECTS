@@ -9,3 +9,5 @@ Welcome to my personal portfolio! w/ projects uploaded
 
 Created using HTML and CSS  styles.
 
+The foodies file is our first project.
+
